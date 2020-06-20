@@ -1,0 +1,20 @@
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends = ["Kevin", "Karen", "Jim", "Jim", "Oscar", "Toby"]
+print(friends)
+
+friends.extend(lucky_numbers)
+friends.apend()
+friends.insert(1, "Kelly")
+friends.remove("Jim")
+friends.clear()
+friends.pop() -> removes last element in the list
+print(friends.index("Kevin")) -> to check if particular item is in the list
+print(friends.count("Jim")) -> finds out, how many times this item "Jim" is in the list
+friends.sort() -> it'll sort the list in ascending order
+lucky_numbers.reverse() -> it'll reverse order of elements in the list
+
+friends2 = friends.copy() -> it'll copy  the elements from friends
+
+Tuples are immutable (can't be modified)
+ex tuple:
+coordinates = (4, 5)
