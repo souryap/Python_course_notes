@@ -1,4 +1,5 @@
 # 4th May 2022 – Weds
+# Data types exercises
 # The code I wrote
 # 🚨 Don't change the code below 👇
 two_digit_number = input("Type a two digit number: ")
