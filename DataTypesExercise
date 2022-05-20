@@ -10,3 +10,20 @@ first_char = int(two_digit_number[0])
 second_char = int(two_digit_number[1])
 
 print(first_char + second_char)
+
+~ ~ ~ 
+**20 May - Friday**
+*BMI Calculator exercise*
+# 🚨 Don't change the code below 👇
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+w = int(weight)
+h = float(height)
+
+BMI = w/(h**2)
+BMI_as_int = int(BMI)
+
+print(BMI_as_int)
