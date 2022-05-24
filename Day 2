@@ -28,3 +28,19 @@ BMI = w/(h**2)
 BMI_as_int = int(BMI)
 
 print(BMI_as_int)
+
+
+***24 May 2022 - Tues (wk 21)***
+# 🚨 Don't change the code below 👇
+age = input("What is your current age? ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+ageLeft = 90 - int(age)
+weeksLeft = int(ageLeft) * 52
+daysLeft = int(ageLeft) * 365
+monthsLeft = int(ageLeft) * 12
+print(f'You have {daysLeft} days, {weeksLeft} weeks, and {monthsLeft} months left.')
+
+
